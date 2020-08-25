@@ -1,0 +1,44 @@
+{
+  "language": "en",
+  "seo": {
+    "title": "Home",
+    "description": "Digital toolkit for kids activity providers"
+  },
+  "headerSection": {
+    "featuresLink": "features",
+    "loginLink": "sign in",
+    "marketplaceLink": "marketplace",
+    "ctaLink": "Get Started"
+  },
+  "heroSection": {
+    "headline": "digital toolkit for kids activity providers",
+    "valueProp": "Everything you need to streamline your activity business",
+    "valueProp2": "Become an early adopter, help shape the future of dootools and receive premium support",
+    "cta": "Get Started"
+  },
+  "featuresSection": {
+    "marketingTitle": "marketing",
+    "marketingBlurb": "premium marketplace positioning<br /><br />social media and paid search",
+    "onboardingTitle": "onboarding",
+    "onboardingBlurb": "registration and booking forms<br /><br />payment collection and processing",
+    "classManagementTitle": "class manager",
+    "classManagementBlurb": "provider and parent dashboards<br /><br />in-class app for participant attendance and evaluation",
+    "communicationsTitle": "communications",
+    "communicationsBlurb": "broadcast messages to groups<br /><br />direct messaging with parents / participiants",
+    "insightsTitle": "insights",
+    "insightsBlurb": "finance and marketing analytics<br /><br />industry trend reporting"
+  },
+  "footerSection": {
+    "copyright": "© dootools 2020, made with ♥ and chocolate in Switzerland"
+  },
+  "getStarted": {
+    "title": "Get Started",
+    "heading": "Get Started",
+    "blurb": "Become an early adopter, help shape the future of dootools and receive premium support"
+  },
+  "404": {
+    "title": "404: Not Found",
+    "heading": "NOT FOUND",
+    "blurb": "You just hit a route that doesn't exist... the sadness."
+  }
+}

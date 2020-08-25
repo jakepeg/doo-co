@@ -1,0 +1,21 @@
+.feature-card {
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.08);
+  background-color: rgba(255, 255, 255, 0.1);
+  margin: 10px;
+  padding: 20px 10px;
+  width: 20%;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.feature-title {
+  color: rgb(11, 52, 78);
+  color: #fff;
+  font-size: 1.38316rem;
+  margin-bottom: 15px;
+}
+
+.feature-blurb {
+  color: #fff;
+  line-height: 1.2;
+}

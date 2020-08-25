@@ -26,18 +26,10 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
+      <div className="contain">
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <p style={{}}>© dootools {new Date().getFullYear()}, made with <span style={{color: 'red', fontSize: '30px'}}>&hearts;</span>+<span style={{fontSize: '30px'}}>&#127851;</span> in<span style={{fontSize: '30px'}}>&#127464;&#127469;</span></p>
         </footer>
       </div>
     </>

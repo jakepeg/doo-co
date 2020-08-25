@@ -1,0 +1,15 @@
+.hero-section {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.hero-copy {
+  max-width: 600px;
+}
+
+.hero-image {
+  max-width: 600px;
+  border-radius: 20px;
+  overflow: hidden;
+}

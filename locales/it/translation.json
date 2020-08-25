@@ -1,0 +1,43 @@
+{
+  "language": "it",
+  "seo": {
+    "title": "Casa",
+    "description": "Digital toolkit for kids activity providers"
+  },
+  "headerSection": {
+    "featuresLink": "features",
+    "loginLink": "sign in",
+    "marketplaceLink": "marketplace",
+    "ctaLink": "get started"
+  },
+  "heroSection": {
+    "headline": "digital toolkit for kids activity providers",
+    "valueProp": "Everything you need to sreamline your activity business",
+    "cta": "get started"
+  },
+  "featuresSection": {
+    "marketingTitle": "marketing",
+    "marketingBlurb": "premium marketplace positioning<br /><br />social media and paid search",
+    "onboardingTitle": "onboarding",
+    "onboardingBlurb": "registration and booking forms<br /><br />payment collection and processing",
+    "classManagementTitle": "class management",
+    "classManagementBlurb": "provider and parent dashboards<br /><br />in-class app for participant attendance and evaluation",
+    "communicationsTitle": "communications",
+    "communicationsBlurb": "broadcast messages to groups<br /><br />direct messaging with parents / participiants",
+    "insightsTitle": "insights",
+    "insightsBlurb": "analytics and reporting<br /><br />financial and marketing"
+  },
+  "footerSection": {
+    "copyright": "© dootools 2020, made with ♥ and chocolate in Switzerland"
+  },
+  "getStarted": {
+    "title": "Get Started",
+    "heading": "Get Started",
+    "blurb": "Become an early adopter, help shape the furure of dootool and receive premium support"
+  },
+  "404": {
+    "title": "404: Not Found",
+    "heading": "NOT FOUND",
+    "blurb": "You just hit a route that doesn't exist... the sadness."
+  }
+}
