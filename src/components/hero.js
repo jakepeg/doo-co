@@ -12,13 +12,13 @@ const Hero = () => {
         <h1>
           {t('heroSection.headline')}
         </h1>
-        <h3>
+        <p className="value-prop">
           {t('heroSection.valueProp')}
-        </h3>
+        </p>
 
-        <h3>
+        <p className="value-prop">
           {t('heroSection.valueProp2')}
-        </h3>
+        </p>
 
         <Cta size="big-cta" />
 

@@ -5,7 +5,7 @@ import './featureSection.css'
 const FeatureSection = () => {
   return (
     <div className="feature-section">
-      <h2>A fully integrated suite of tools</h2>
+      <h2>fully integrated suite of tools</h2>
       <div className="cards">
         <FeatureCard 
           featureBlurb="featuresSection.marketingBlurb" 

@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
+import Form from '../components/form';
 import {Link, useTranslation, Trans} from 'gatsby-plugin-react-i18next';
 
 const SecondPage = (props) => {
@@ -17,6 +18,7 @@ const SecondPage = (props) => {
       <Link to="/">
         <Trans>Go back to the homepage</Trans>
       </Link>
+      <Form />
     </Layout>
   );
 };

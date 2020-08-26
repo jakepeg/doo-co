@@ -8,7 +8,7 @@ const FeatureCard = (props) => {
         <div className="feature-card">
           <h3 className="feature-title">{t(props.featureTitle)}</h3>
           <div className="feature-blurb">
-            <div dangerouslySetInnerHTML={ {__html: t(props.featureBlurb)} } />
+            <p dangerouslySetInnerHTML={ {__html: t(props.featureBlurb)} } />
           </div>
         </div>
   );
