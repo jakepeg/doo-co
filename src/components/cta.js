@@ -5,8 +5,8 @@ import './cta.css'
 const Cta = (props) => {
   const {t} = useTranslation();
   return (
-    <Link className={`${props.size} cta`} to="/get-started/">
-      {t('heroSection.cta')}
+    <Link className={`${props.size} cta ${props.color}`} to={props.linkTo}>
+      {props.buttonText}
     </Link>
   );
 };

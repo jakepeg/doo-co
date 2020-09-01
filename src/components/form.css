@@ -1,3 +1,143 @@
+.contactForm {
+  /* height: 2000px; */
+}
+
+.formRow {
+  display: grid;
+  grid-template-columns: 200px 400px auto;
+  margin-bottom: 15px;
+}
+
 label {
-  font-size: 40px;
+  /* display: block; */
+  margin: 0em 0em 0.28571429rem 0em;
+  font-size: 20px;
+  text-transform: none;
+}
+
+input[type="email"],
+input[type="tel"],
+input[type="text"],
+input[type="url"] {
+  font-family: "Lato", "Helvetica Neue", Arial, Helvetica, sans-serif;
+  margin: 0em;
+  outline: none;
+  -webkit-appearance: none;
+  tap-highlight-color: rgba(255, 255, 255, 0);
+  line-height: 1.21428571em;
+  padding: 1em;
+  font-size: 20px;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  color: rgba(77, 77, 77);
+  border-radius: 0.28571429rem;
+  box-shadow: 0em 0em 0em 0em transparent inset;
+  transition: color 0.1s ease, border-color 0.1s ease;
+  height: 25px;
+}
+
+.checkbox {
+  position: relative;
+  display: inline-block;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  outline: 0;
+  vertical-align: baseline;
+  font-style: normal;
+  min-height: 17px;
+  font-size: 1rem;
+  line-height: 17px;
+  min-width: 17px;
+}
+
+.select {
+  -webkit-writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  color: black;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  -webkit-appearance: menulist;
+  box-sizing: border-box;
+  align-items: center;
+  white-space: pre;
+  -webkit-rtl-ordering: logical;
+  background-color: rgb(248, 248, 248);
+  cursor: default;
+  margin: 0em;
+  font: 100 17px system-ui;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(166, 166, 166);
+  border-image: initial;
+  height: 35px;
+}
+
+textarea {
+  margin: 0em;
+  height: 90px;
+  -webkit-appearance: none;
+  tap-highlight-color: rgba(255, 255, 255, 0);
+  padding: 0.78571429em 1em;
+  background: #ffffff;
+  border: 1px solid rgba(34, 36, 38, 0.15);
+  outline: none;
+  color: rgba(77, 77, 77);
+  border-radius: 0.28571429rem;
+  box-shadow: 0em 0em 0em 0em transparent inset;
+  transition: color 0.1s ease, border-color 0.1s ease;
+  font-size: 20px;
+  line-height: 1.2857;
+  resize: vertical;
+}
+
+.formSend {
+  padding: 5px 15px;
+  width: 120px;
+  font-size: 1.2em;
+  background: #00a305;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.08);
+  display: inline-block;
+  font-weight: 500;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  line-height: 1.5;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+.smallText {
+  font-size: 14px;
+}
+
+@media (max-width: 640px) {
+  label {
+    color: rgba(77, 77, 77);
+    font-size: 18px;
+    text-transform: none;
+  }
+
+  .formRow {
+    grid-template-columns: 90px 180px auto;
+  }
+
+  input[type="email"],
+  input[type="tel"],
+  input[type="text"],
+  input[type="url"] {
+    padding: 5px;
+    font-size: 18px;
+  }
 }

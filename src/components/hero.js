@@ -20,7 +20,12 @@ const Hero = () => {
           {t('heroSection.valueProp2')}
         </p>
 
-        <Cta size="big-cta" />
+        <Cta 
+          size="big-cta" 
+          buttonText={t('heroSection.cta')}
+          linkTo="/get-started/"
+          color="orange"
+        />
 
       </div>
       <div className="hero-image">

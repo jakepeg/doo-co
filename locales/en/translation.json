@@ -25,7 +25,7 @@
     "classManagementBlurb": "provider and parent dashboards<br /><br />in-class app for participant attendance and evaluation",
     "communicationsTitle": "communicate",
     "communicationsBlurb": "broadcast messages to groups<br /><br />direct messaging with parents / participiants",
-    "insightsTitle": "learn",
+    "insightsTitle": "evolve",
     "insightsBlurb": "finance and marketing analytics<br /><br />industry insights trend reporting"
   },
   "footerSection": {
@@ -42,7 +42,22 @@
     "blurb": "You just hit a route that doesn't exist... the sadness."
   },
   "formLabel": {
-    "fname": "First Name",
-    "lname": "Last Name"
+    "name": "Your name",
+    "email": "Your email",
+    "cname": "Company name",
+    "cwebsite": "Website",
+    "ccountry": "Country",
+    "cregion": "Region",
+    "interests": "Interested in",
+    "interestmarketing": " Digital marketing",
+    "interestregistrations": " Online registration forms",
+    "interestpayments": " Payment collection",
+    "interestclassapp": " Class management",
+    "interestmemberships": " Membership management",
+    "interestcommunications": " Messaging",
+    "interestinsights": " Insights - industry reports, analytics"
+  },
+  "footer": {
+    "made": "made with"
   }
 }
