@@ -13,7 +13,7 @@
   "heroSection": {
     "headline": "digital toolkit for kids activity providers",
     "valueProp": "Everything you need to streamline your activity business",
-    "valueProp2": "Earlybird offer: become an early adopter, help shape the future of dootools and receive a one year premium support upgrade",
+    "valueProp2": "Become an early adopter and help shape the future of dootools",
     "cta": "Get Started"
   },
   "featuresSection": {
@@ -33,8 +33,8 @@
   },
   "getStarted": {
     "title": "Get Started",
-    "heading": "Get Started",
-    "blurb": "Earlybird offer: become an early adopter, help shape the future of dootools and receive a one year premium support upgrade"
+    "heading": "Let's get started",
+    "blurb": "dootools is in the early days of its hopefully long and prosperous life.<br /><br />We are looking for early adopters that want to help shape the future of the product, we don’t just want to design a product with the users (parents and activity providers) in mind, we want a product designed by the users - with the help of our technical wizards of course!<br /><br />If you’re interested in becoming an early adopter or just want to stay in the loop, then fill out the form and we’ll be in touch."
   },
   "404": {
     "title": "404: Not Found",
@@ -55,7 +55,7 @@
     "interestclassapp": " Class management",
     "interestmemberships": " Membership management",
     "interestcommunications": " Messaging",
-    "interestinsights": " Insights - industry reports, analytics"
+    "interestinsights": " Insights - reports and analytics"
   },
   "footer": {
     "made": "made with"

@@ -90,6 +90,10 @@ const Form = () => {
         <span></span>
         <button className="formSend" type="submit">Submit</button>
       </div>
+      <div className="formRow">
+        <span></span>
+        <p>We won’t share any of your data.</p>
+      </div>
     </form>
   );
 };

@@ -12,3 +12,14 @@
   width: 30%;
   padding: 50px 0;
 }
+
+.footer-col h4,
+.footer-col p,
+.footer-col a,
+.copyright {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.copyright {
+  margin-top: -40px;
+}

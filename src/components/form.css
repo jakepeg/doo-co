@@ -2,6 +2,13 @@
   /* height: 2000px; */
 }
 
+form {
+  background-color: rgba(11, 52, 78, 1);
+  border-radius: 8px;
+  padding: 40px 25px;
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.08);
+}
+
 .formRow {
   display: grid;
   grid-template-columns: 200px 400px auto;
@@ -10,7 +17,7 @@
 
 label {
   /* display: block; */
-  margin: 0em 0em 0.28571429rem 0em;
+  margin: 0em 0em 0.2rem 0em;
   font-size: 20px;
   text-transform: none;
 }
@@ -24,16 +31,17 @@ input[type="url"] {
   outline: none;
   -webkit-appearance: none;
   tap-highlight-color: rgba(255, 255, 255, 0);
-  line-height: 1.21428571em;
-  padding: 1em;
+  line-height: 1.2em;
+  padding: 20px;
   font-size: 20px;
   background: transparent;
   border: 1px solid rgba(255, 255, 255, 0.5);
-  color: rgba(77, 77, 77);
-  border-radius: 0.28571429rem;
+  color: #fff;
+  border-radius: 4px;
   box-shadow: 0em 0em 0em 0em transparent inset;
   transition: color 0.1s ease, border-color 0.1s ease;
   height: 25px;
+  width: 320px;
 }
 
 .checkbox {
@@ -50,7 +58,7 @@ input[type="url"] {
   min-width: 17px;
 }
 
-.select {
+/* .select {
   -webkit-writing-mode: horizontal-tb !important;
   text-rendering: auto;
   color: black;
@@ -76,6 +84,19 @@ input[type="url"] {
   border-color: rgb(166, 166, 166);
   border-image: initial;
   height: 35px;
+  width: 200px;
+} */
+
+.select {
+  background-color: transparent;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 4px;
+  font-weight: 400;
+  padding: 0 20px;
+  font-size: 20px;
+  width: 320px;
+  appearance: none;
 }
 
 textarea {
@@ -83,16 +104,16 @@ textarea {
   height: 90px;
   -webkit-appearance: none;
   tap-highlight-color: rgba(255, 255, 255, 0);
-  padding: 0.78571429em 1em;
+  padding: 0.8em 1em;
   background: #ffffff;
   border: 1px solid rgba(34, 36, 38, 0.15);
   outline: none;
   color: rgba(77, 77, 77);
-  border-radius: 0.28571429rem;
+  border-radius: 0.3rem;
   box-shadow: 0em 0em 0em 0em transparent inset;
   transition: color 0.1s ease, border-color 0.1s ease;
   font-size: 20px;
-  line-height: 1.2857;
+  line-height: 1.2;
   resize: vertical;
 }
 

@@ -11,9 +11,7 @@ const GetStarted = () => {
         <h1>
           {t('getStarted.heading')}
         </h1>
-        <p className="blurb">
-        {t('getStarted.blurb')} 
-        </p>
+        <p className="blurb" dangerouslySetInnerHTML={ {__html: t('getStarted.blurb')} } />
       </div>
       <div className="form">
         <Form />

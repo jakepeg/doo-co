@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import {useTranslation} from 'gatsby-plugin-react-i18next';
 import { CountryDropdown, RegionDropdown, CountryRegionData } from 'react-country-region-selector';
+import './form.css'
 
 
 class CountryRegion extends Component {
@@ -22,7 +22,7 @@ class CountryRegion extends Component {
     // const {t} = useTranslation();
     return (
       <>
-        <p className="formRow">
+        <div className="formRow selectdiv">
           {/* <label for="ccountry">{t('formLabel.ccountry')}:</label> */}
           <label for="ccountry">Country:</label>
           <CountryDropdown
@@ -30,10 +30,11 @@ class CountryRegion extends Component {
             onChange={(val) => this.selectCountry(val)} 
             id="ccountry"
             name="ccountry"
+            classes="select"
           />
-        </p>
+        </div>
 
-        <p className="formRow">
+        <div className="formRow">
           {/* <label for="cregion">{t('formLabel.cregion')}:</label> */}
           <label for="cregion">Region:</label>
           <RegionDropdown
@@ -42,8 +43,9 @@ class CountryRegion extends Component {
             onChange={(val) => this.selectRegion(val)}
             id="cregion" 
             name="cregion"
+            classes="select"
          />
-        </p>
+        </div>
       </>
     );
   }
