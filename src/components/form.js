@@ -86,11 +86,11 @@ const Form = () => {
       </div>
       <div className="formRow">
         <span></span>
-        <button className="formSend" type="submit">Submit</button>
+        <button className="formSend" type="submit">{t('formLabel.submit')}</button>
       </div>
       <div className="formRow">
         <span></span>
-        <p>We won’t share any of your data.</p>
+        <p>{t('formLabel.shareData')}</p>
       </div>
     </form>
   );

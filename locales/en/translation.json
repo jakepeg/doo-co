@@ -6,7 +6,7 @@
   },
   "headerSection": {
     "featuresLink": "features",
-    "loginLink": "sign in",
+    "loginLink": "Sign In",
     "marketplaceLink": "marketplace",
     "ctaLink": "Get Started"
   },
@@ -17,6 +17,7 @@
     "cta": "Get Started"
   },
   "featuresSection": {
+    "title": "fully-integrated suite of tools",
     "marketingTitle": "promote",
     "marketingBlurb": "premium marketplace positioning<br /><br />social media and paid search",
     "onboardingTitle": "onboard",
@@ -27,9 +28,6 @@
     "communicationsBlurb": "broadcast messages to groups<br /><br />direct messaging with parents / participiants",
     "insightsTitle": "evolve",
     "insightsBlurb": "finance and marketing analytics<br /><br />industry insights trend reporting"
-  },
-  "footerSection": {
-    "copyright": "© dootools 2020, made with ♥ and chocolate in Switzerland"
   },
   "getStarted": {
     "title": "Get Started",
@@ -56,9 +54,17 @@
     "interestmemberships": " Membership management",
     "interestcommunications": " Messaging",
     "interestinsights": " Insights - reports, analytics",
-    "onlineactivity": " Online activity"
+    "onlineactivity": " Online activity",
+    "shareData": "We won’t share any of your data.",
+    "submit": "Submit"
   },
   "footer": {
-    "made": "Made with"
+    "made": "Made with",
+    "connect": "connect",
+    "dootoolsBlurb": "Our mission is to streamline the administration of childrens activity businesses, freeing up time for growing business and providing the best activity programs for kids.",
+    "discoverdooBlurb": "is our marketplace website where parents and carers can find kids activities in their local area and online.",
+    "rightReserved": "All rights reserved",
+    "cookieBlurb": "This website uses cookies to enhance the user experience",
+    "cookieButton": "I understand"
   }
 }

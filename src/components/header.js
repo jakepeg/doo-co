@@ -18,9 +18,9 @@ const Header = ({siteTitle}) => {
         <LanguageSelect />
         <Cta 
           size="small-cta" 
-          buttonText={t('heroSection.cta')}
-          linkTo="/get-started/"
-          color="orange"
+          buttonText={t('headerSection.loginLink')}
+          linkTo="http://www.doo.tools"
+          color="green"
           className="cta"
         />
       </div>

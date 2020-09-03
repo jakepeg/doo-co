@@ -1,33 +1,30 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 import { CountryDropdown, RegionDropdown, CountryRegionData } from 'react-country-region-selector';
+import {useTranslation} from 'gatsby-plugin-react-i18next';
 import './form.css'
 
 
-class CountryRegion extends Component {
-  constructor (props) {
-    super(props);
-    this.state = { country: '', region: '' };
+const CountryRegion = () => {
+  const {t} = useTranslation();
+  const [country, setCountry] = useState('');
+  const [region, setRegion] = useState('');
+
+  const selectCountry = val => {
+    setCountry(val)
   }
 
-  selectCountry (val) {
-    this.setState({ country: val });
+  const selectRegion = val => {
+    setRegion(val)
   }
 
-  selectRegion (val) {
-    this.setState({ region: val });
-  }
+  return (
 
-  render () {
-    const { country, region } = this.state;
-    // const {t} = useTranslation();
-    return (
       <>
         <div className="formRow selectdiv">
-          {/* <label for="ccountry">{t('formLabel.ccountry')}:</label> */}
-          <label for="ccountry">Country:</label>
+          <label for="ccountry">{t('formLabel.ccountry')}:</label>
           <CountryDropdown
             value={country}
-            onChange={(val) => this.selectCountry(val)} 
+            onChange={(val) => selectCountry(val)} 
             id="ccountry"
             name="ccountry"
             classes="select"
@@ -35,12 +32,11 @@ class CountryRegion extends Component {
         </div>
 
         <div className="formRow">
-          {/* <label for="cregion">{t('formLabel.cregion')}:</label> */}
-          <label for="cregion">Region:</label>
+          <label for="cregion">{t('formLabel.cregion')}:</label>
           <RegionDropdown
             country={country}
             value={region}
-            onChange={(val) => this.selectRegion(val)}
+            onChange={(val) => selectRegion(val)}
             id="cregion" 
             name="cregion"
             classes="select"
@@ -49,6 +45,5 @@ class CountryRegion extends Component {
       </>
     );
   }
-}
 
 export default CountryRegion;

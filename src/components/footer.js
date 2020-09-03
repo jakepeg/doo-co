@@ -11,24 +11,23 @@ const Footer = () => {
         <div className="footer-col">
           <h4>dootools</h4>
           <p>
-            Our mission is to streamline the administration of childrens activity businesses, freeing up time for growing business and providing the best activity programs for kids.
+          {t('footer.dootoolsBlurb')}
           </p>  
         </div>
         <div className="footer-col">
           <h4>discoverdoo</h4>
           <p>
-            <a href="http://www.discoverdoo.com">www.discoverdoo.com</a> is our marketplace website where parents and carers can find kids activities in their local area and online.
+            <a href="http://www.discoverdoo.com">www.discoverdoo.com</a> {t('footer.discoverdooBlurb')}
           </p>  
         </div>
         <div className="footer-col">
-        <h4>connect</h4>
+        <h4>{t('footer.connect')}</h4>
           <p>
-            email: <a href="mailto:hello@discoverdoo.com">hello@discoverdoo.com</a>
+            <a href="mailto:hello@discoverdoo.com">hello@discoverdoo.com</a>
           </p>
-          <p className="">© dootools {new Date().getFullYear()}<br />All rights reserved<br />{t('footer.made')} <span style={{color: 'red', fontSize: '30px'}}>&hearts;</span>+<span style={{fontSize: '30px'}}>&#127851;</span> in <span style={{fontSize: '30px'}}>&#127464;&#127469;</span></p>
+          <p className="">© dootools {new Date().getFullYear()}<br />{t('footer.rightReserved')}<br />{t('footer.made')} <span style={{color: 'red', fontSize: '30px'}}>&hearts;</span>+<span style={{fontSize: '30px'}}>&#127851;</span> @ <span style={{fontSize: '30px'}}>&#127464;&#127469;</span></p>
         </div>
-      </div>
-      
+      </div>    
       </div>
     </footer>
   );

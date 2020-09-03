@@ -4,7 +4,7 @@ import SEO from '../components/seo';
 import GetStarted from '../components/getStarted';
 import {useTranslation} from 'gatsby-plugin-react-i18next';
 
-const SecondPage = () => {
+const GetStartedPage = () => {
   const {t} = useTranslation();
   return (
     <Layout>
@@ -14,4 +14,4 @@ const SecondPage = () => {
   );
 };
 
-export default SecondPage;
+export default GetStartedPage;

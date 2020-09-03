@@ -34,8 +34,14 @@
 
 .green {
   color: #fff;
-  background-color: green;
-  border-color: green;
+  background-color: #00a305;
+  border-color: #00a305;
+}
+
+.blue {
+  color: #fff;
+  background-color: rgb(11, 52, 78);
+  border-color: rgb(11, 52, 78);
 }
 
 /* for phones only */

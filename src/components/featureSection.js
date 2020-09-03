@@ -1,11 +1,13 @@
-import React from 'react'
+import React from 'react';
+import {useTranslation} from 'gatsby-plugin-react-i18next';
 import FeatureCard from './featureCard';
-import './featureSection.css'
+import './featureSection.css';
 
 const FeatureSection = () => {
+  const {t} = useTranslation();
   return (
     <div className="feature-section">
-      <h2>fully-integrated suite of tools</h2>
+      <h2>{t('featuresSection.title')}</h2>
       <div className="cards">
         <FeatureCard 
           featureBlurb="featuresSection.marketingBlurb" 
