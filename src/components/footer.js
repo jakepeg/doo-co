@@ -25,9 +25,10 @@ const Footer = () => {
           <p>
             email: <a href="mailto:hello@discoverdoo.com">hello@discoverdoo.com</a>
           </p>
+          <p className="">© dootools {new Date().getFullYear()}<br />All rights reserved<br />{t('footer.made')} <span style={{color: 'red', fontSize: '30px'}}>&hearts;</span>+<span style={{fontSize: '30px'}}>&#127851;</span> in <span style={{fontSize: '30px'}}>&#127464;&#127469;</span></p>
         </div>
       </div>
-      <p className="copyright">© dootools {new Date().getFullYear()}. All rights reserved. {t('footer.made')} <span style={{color: 'red', fontSize: '30px'}}>&hearts;</span>+<span style={{fontSize: '30px'}}>&#127851;</span> in <span style={{fontSize: '30px'}}>&#127464;&#127469;</span></p>
+      
       </div>
     </footer>
   );

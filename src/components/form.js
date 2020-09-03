@@ -14,11 +14,11 @@ const Form = () => {
       <input type="hidden" name="form-name" value="get-started" />
       <div className="formRow">
         <label for="name">{t('formLabel.name')}:</label>
-        <input type="text" id="name" name="name" />
+        <input required type="text" id="name" name="name" />
       </div>
       <div className="formRow">
         <label for="email">{t('formLabel.email')}:</label>
-        <input type="text" id="email" name="email" />
+        <input required type="email" id="email" name="email" />
       </div>
       <div className="formRow">
         <label for="cname">{t('formLabel.cname')}:</label>
@@ -28,15 +28,13 @@ const Form = () => {
         <label for="cwebsite">{t('formLabel.cwebsite')}:</label>
         <input type="text" id="cwebsite" name="cwebsite" />
       </div>
-      {/* <div className="formRow">
-        <label for="ccountry">{t('formLabel.ccountry')}:</label>
-        <input type="text" id="ccountry" name="ccountry" />
-      </div>
-      <div className="formRow">
-        <label for="cregion">{t('formLabel.cregion')}:</label>
-        <input type="text" id="cregion" name="cregion" />
-      </div> */}
       <CountryRegion />
+      <div className="formRow">
+        <label for="onlineactivity">{t('formLabel.onlineactivity')}:</label>
+        <div>
+        <input className="checkbox" type="checkbox" id="onlineactivity" name="onlineactivity" value="online activity" />
+        </div>
+      </div>
       <div className="formRow">
         <label>{t('formLabel.interests')}:</label>
         <div>

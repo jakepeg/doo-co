@@ -4,4 +4,45 @@
 
 .cards {
   display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  text-align: center;
+}
+
+/* for phones only */
+@media (max-width: 599px) {
+  .feature-section {
+    margin: 50px 0;
+  }
+  .cards {
+    flex-wrap: wrap;
+  }
+}
+
+/* for-tablet-portrait-up */
+@media (min-width: 600px) {
+  .cards {
+    flex-wrap: wrap;
+  }
+}
+
+/* for-tablet-landscape-up */
+@media (min-width: 900px) {
+  .cards {
+    flex-wrap: nowrap;
+  }
+}
+
+/* for-desktop-up */
+@media (min-width: 1200px) {
+  .cards {
+    flex-wrap: nowrap;
+  }
+}
+
+/* for-large-desktop-up */
+@media (min-width: 1800px) {
+  .cards {
+    flex-wrap: nowrap;
+  }
 }

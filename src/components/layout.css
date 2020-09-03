@@ -14,6 +14,9 @@ body {
     rgb(11, 52, 78) 0%,
     rgb(1, 188, 212) 100%
   );
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
 }
 article,
 aside,
@@ -259,7 +262,7 @@ h1 {
   font-family: Verdana, Geneva, sans-serif;
   font-weight: 400;
   text-rendering: optimizeLegibility;
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   line-height: 1.2;
   word-spacing: -6px;
 }
@@ -637,8 +640,38 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
-@media only screen and (max-width: 480px) {
-  html {
-    font-size: 100%;
+
+/* for phones only */
+@media (max-width: 599px) {
+  h2 {
+    font-size: 1.6rem;
   }
+}
+
+/* for-tablet-portrait-up */
+@media (min-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.7rem;
+  }
+}
+
+/* for-tablet-landscape-up */
+@media (min-width: 900px) {
+  h1 {
+    font-size: 2.3rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+}
+
+/* for-desktop-up */
+@media (min-width: 1200px) {
+}
+
+/* for-large-desktop-up */
+@media (min-width: 1800px) {
 }

@@ -21,6 +21,7 @@ const Header = ({siteTitle}) => {
           buttonText={t('heroSection.cta')}
           linkTo="/get-started/"
           color="orange"
+          className="cta"
         />
       </div>
     </header>

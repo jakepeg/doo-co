@@ -143,7 +143,7 @@ textarea {
   font-size: 14px;
 }
 
-@media (max-width: 640px) {
+/* @media (max-width: 640px) {
   label {
     color: rgba(77, 77, 77);
     font-size: 18px;
@@ -161,4 +161,60 @@ textarea {
     padding: 5px;
     font-size: 18px;
   }
+} */
+
+/* for phones only */
+@media (max-width: 599px) {
+  .formRow {
+    grid-template-columns: 100%;
+  }
+  input[type="email"],
+  input[type="tel"],
+  input[type="text"],
+  input[type="url"] {
+    width: 290px;
+  }
+  .select {
+    width: 290px;
+  }
+}
+
+/* for-tablet-portrait-up */
+@media (min-width: 600px) {
+  .formRow {
+    grid-template-columns: 100%;
+  }
+  input[type="email"],
+  input[type="tel"],
+  input[type="text"],
+  input[type="url"] {
+    width: 380px;
+  }
+  .select {
+    width: 380px;
+  }
+}
+
+/* for-tablet-landscape-up */
+@media (min-width: 900px) {
+}
+
+/* for-desktop-up */
+@media (min-width: 1200px) {
+  .formRow {
+    grid-template-columns: 200px 400px auto;
+  }
+  input[type="email"],
+  input[type="tel"],
+  input[type="text"],
+  input[type="url"] {
+    width: 320px;
+  }
+  .select {
+    width: 320px;
+  }
+}
+
+/* for-large-desktop-up */
+@media (min-width: 1800px) {
 }

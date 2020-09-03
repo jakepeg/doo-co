@@ -17,12 +17,12 @@
     "cta": "Get Started"
   },
   "featuresSection": {
-    "marketingTitle": "advertise",
+    "marketingTitle": "promote",
     "marketingBlurb": "premium marketplace positioning<br /><br />social media and paid search",
     "onboardingTitle": "onboard",
     "onboardingBlurb": "registration and booking forms<br /><br />payment collection and processing",
     "classManagementTitle": "administer",
-    "classManagementBlurb": "provider and parent dashboards<br /><br />in-class app for participant attendance and evaluation",
+    "classManagementBlurb": "provider and parent dashboards<br /><br />in-class app for attendance and evaluation",
     "communicationsTitle": "communicate",
     "communicationsBlurb": "broadcast messages to groups<br /><br />direct messaging with parents / participiants",
     "insightsTitle": "evolve",
@@ -55,9 +55,10 @@
     "interestclassapp": " Class management",
     "interestmemberships": " Membership management",
     "interestcommunications": " Messaging",
-    "interestinsights": " Insights - reports and analytics"
+    "interestinsights": " Insights - reports, analytics",
+    "onlineactivity": " Online activity"
   },
   "footer": {
-    "made": "made with"
+    "made": "Made with"
   }
 }

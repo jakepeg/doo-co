@@ -8,6 +8,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import CookieConsent from "react-cookie-consent";
 import Footer from "./footer"
 
 import Header from "./header"
@@ -31,6 +32,20 @@ const Layout = ({ children }) => {
         <main>{children}</main>
       </div>
       <Footer />
+      <CookieConsent
+          location="bottom"
+          buttonText="I understand"
+          cookieName="dootoolsCookie"
+          style={{ background: "#000000" }}
+          buttonStyle={{
+            color: "#ffffff",
+            background: "#00a305",
+            fontSize: "18px"
+          }}
+          expires={150}
+        >
+          This website uses cookies to enhance the user experience
+        </CookieConsent>
     </>
   )
 }
