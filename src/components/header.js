@@ -3,7 +3,7 @@ import { Link } from "gatsby";
 import LanguageSelect from './languageSelect';
 import {useTranslation} from 'gatsby-plugin-react-i18next';
 import Cta from './cta';
-import logo from '../images/doo-logo-white.svg';
+import logo from '../images/logo.svg';
 import "./header.css"
 
 const Header = ({siteTitle}) => {
