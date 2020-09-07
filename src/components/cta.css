@@ -47,6 +47,6 @@
 /* for phones only */
 @media (max-width: 599px) {
   .small-cta {
-    display: none;
+    /* display: none; */
   }
 }
