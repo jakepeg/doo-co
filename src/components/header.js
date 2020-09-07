@@ -11,7 +11,7 @@ const Header = ({siteTitle}) => {
   return (
     <header className="main-header contain">
       <Link className="logo-group" to="/">
-        {/* <img src={logo} className="logo-img" alt="doo logo" /> */}
+        <img src={logo} className="logo-img" alt="doo logo" />
         <h1 className="logo-type">{siteTitle}</h1>
       </Link>
       <div className="menu">
