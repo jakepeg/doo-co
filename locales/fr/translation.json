@@ -2,42 +2,71 @@
   "language": "fr",
   "seo": {
     "title": "Accueil",
-    "description": "Digital toolkit for kids activity providers"
+    "description": "Outils numérique pour les fournisseurs d'activités enfants"
   },
   "headerSection": {
-    "featuresLink": "features",
-    "loginLink": "sign in",
-    "marketplaceLink": "marketplace",
-    "ctaLink": "get started"
+    "featuresLink": "fonctionnalités",
+    "loginLink": "Connecter",
+    "marketplaceLink": "marché",
+    "ctaLink": "Commencer"
   },
   "heroSection": {
-    "headline": "digital toolkit for kids activity providers",
-    "valueProp": "Everything you need to sreamline your activity business",
-    "cta": "get started"
+    "headline": "Outils numérique pour les fournisseurs d'activités enfants",
+    "valueProp": "Tout pour rationaliser votre activité business",
+    "valueProp2": "Devenez l'un des premiers à adopter et contribuez à façonner l'avenir de dootools",
+    "cta": "Commencer"
   },
   "featuresSection": {
-    "marketingTitle": "marketing",
-    "marketingBlurb": "premium marketplace positioning<br /><br />social media and paid search",
-    "onboardingTitle": "onboarding",
-    "onboardingBlurb": "registration and booking forms<br /><br />payment collection and processing",
-    "classManagementTitle": "class management",
-    "classManagementBlurb": "provider and parent dashboards<br /><br />in-class app for participant attendance and evaluation",
-    "communicationsTitle": "communications",
-    "communicationsBlurb": "broadcast messages to groups<br /><br />direct messaging with parents / participiants",
-    "insightsTitle": "insights",
-    "insightsBlurb": "analytics and reporting<br /><br />financial and marketing"
-  },
-  "footerSection": {
-    "copyright": "© dootools 2020, made with ♥ and chocolate in Switzerland"
+    "title": "suite d'outils entièrement intégrée",
+    "marketingTitle": "afficher",
+    "marketingBlurb": "positionnement marketplace premium<br /><br />média social et annonces publicitaires payées",
+    "onboardingTitle": "embarquement",
+    "onboardingBlurb": "formulaires d'inscription et de réservation<br /><br />collecte et traitement des paiements",
+    "classManagementTitle": "administrer",
+    "classManagementBlurb": "tableaux de bord des fournisseurs et des parents<br /><br />app en classe pour présence et évaluation",
+    "communicationsTitle": "communiquer",
+    "communicationsBlurb": "diffuser des messages à des groupes<br /><br />messagerie directe avec les parents / participants",
+    "insightsTitle": "évoluer",
+    "insightsBlurb": "analyse financière et marketing<br /><br />rapports sur les tendances de l’industrie"
   },
   "getStarted": {
-    "title": "Get Started",
-    "heading": "Get Started",
-    "blurb": "Become an early adopter, help shape the furure of dootool and receive premium support"
+    "title": "Commencer",
+    "heading": "Commençons",
+    "blurb": "dootools est dans les premiers jours de sa vie, espérons-le, longue et prospère.<br /><br />Nous recherchons des utilisateurs précoces qui souhaitent contribuer à façonner l'avenir du produit, nous ne voulons pas seulement concevoir un produit en pensant aux utilisateurs (parents et fournisseurs d'activités), nous voulons un produit conçu par les utilisateurs - avec le l'aide de nos assistants techniques bien sûr! <br /> <br /> Si vous souhaitez devenir l'un des premiers utilisateurs ou si vous souhaitez simplement rester au courant, remplissez le formulaire et nous vous contacterons."
   },
   "404": {
-    "title": "404: Not Found",
-    "heading": "NOT FOUND",
-    "blurb": "You just hit a route that doesn't exist... the sadness."
+    "title": "404: Pas trouvé",
+    "heading": "PAS TROUVÉ",
+    "blurb": "Vous venez de prendre une route qui n'existe pas."
+  },
+  "formLabel": {
+    "name": "Votre nom",
+    "email": "Votre email",
+    "cname": "Entreprise",
+    "cwebsite": "Site Internet",
+    "ccountry": "Pays",
+    "cregion": "Région",
+    "ccountrylabel": "Choisissez le pays",
+    "cregionlabel": "Choisissez une région",
+    "interests": "Intéressé par",
+    "interestmarketing": " Le marketing numérique",
+    "interestregistrations": " Formulaires d'inscription en ligne",
+    "interestpayments": " Collecte des paiements",
+    "interestclassapp": " Gestion de classe",
+    "interestmemberships": " Gestion des membres",
+    "interestcommunications": " Messagerie",
+    "interestinsights": " Insights - rapports, analyses",
+    "onlineactivity": " Activité en ligne",
+    "shareData": "Nous ne partagerons aucune de vos données.",
+    "submit": "Envoyer"
+  },
+  "footer": {
+    "made": "Fabriqué avec",
+    "connect": "connect",
+    "dootoolsBlurb": "Notre mission est de rationaliser l'administration des entreprises d'activités pour enfants, de libérer du temps pour la croissance des entreprises et de fournir les meilleurs programmes d'activités pour les enfants.",
+    "discoverdooBlurb": "est notre site Web de marché où les parents et les tuteurs peuvent trouver des activités pour enfants dans leur région et en ligne.",
+    "rightReserved": "Tous les droits sont réservés",
+    "cookieBlurb": "Ce site Web utilise des cookies pour améliorer l'expérience utilisateur",
+    "cookieButton": "je comprends"
   }
 }

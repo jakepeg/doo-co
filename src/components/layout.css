@@ -412,6 +412,11 @@ p {
   padding-top: 0;
   margin-bottom: 1.45rem;
 }
+
+.smaller {
+  font-size: 0.8em;
+}
+
 figure {
   margin-left: 0;
   margin-right: 0;

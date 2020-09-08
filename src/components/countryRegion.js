@@ -28,6 +28,7 @@ const CountryRegion = () => {
             id="ccountry"
             name="ccountry"
             classes="select"
+            defaultOptionLabel={t('formLabel.ccountrylabel')}
           />
         </div>
 
@@ -40,6 +41,7 @@ const CountryRegion = () => {
             id="cregion" 
             name="cregion"
             classes="select"
+            defaultOptionLabel={t('formLabel.cregionlabel')}
          />
         </div>
       </>

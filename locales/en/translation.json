@@ -37,7 +37,7 @@
   "404": {
     "title": "404: Not Found",
     "heading": "NOT FOUND",
-    "blurb": "You just hit a route that doesn't exist... the sadness."
+    "blurb": "You just hit a route that doesn't exist."
   },
   "formLabel": {
     "name": "Your name",
@@ -46,6 +46,8 @@
     "cwebsite": "Website",
     "ccountry": "Country",
     "cregion": "Region",
+    "ccountrylabel": "Select Country",
+    "cregionlabel": "Select Region",
     "interests": "Interested in",
     "interestmarketing": " Digital marketing",
     "interestregistrations": " Online registration forms",

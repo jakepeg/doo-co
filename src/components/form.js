@@ -90,7 +90,7 @@ const Form = () => {
       </div>
       <div className="formRow">
         <span></span>
-        <p>{t('formLabel.shareData')}</p>
+        <p className="smaller">{t('formLabel.shareData')}</p>
       </div>
     </form>
   );
