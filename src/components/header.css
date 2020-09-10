@@ -23,9 +23,13 @@
 
 .menu {
   display: flex;
-  justify-content: space-between;
-  width: 150px;
+  justify-content: flex-end;
+  width: 180px;
   margin-top: 20px;
+}
+
+.language-select {
+  margin-right: 10px;
 }
 
 /* for phones only */
