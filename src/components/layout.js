@@ -32,8 +32,8 @@ const Layout = ({ children }) => {
           cookieName="dootoolsCookie"
           style={{ background: "#000000" }}
           buttonStyle={{
-            color: "#ffffff",
-            background: "#00a305",
+            color: "#000",
+            background: "#fff",
             fontSize: "18px"
           }}
           expires={150}

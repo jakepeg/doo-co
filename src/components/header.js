@@ -20,7 +20,7 @@ const Header = ({siteTitle}) => {
           size="small-cta" 
           buttonText={t('headerSection.loginLink')}
           linkTo="http://www.doo.tools"
-          color="green"
+          color="white"
           className="cta"
         />
       </div>

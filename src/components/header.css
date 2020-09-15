@@ -32,6 +32,10 @@
   margin-right: 10px;
 }
 
+.language-select-label {
+  color: transparent;
+}
+
 /* for phones only */
 @media (max-width: 599px) {
   .logo-type {

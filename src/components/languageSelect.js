@@ -10,12 +10,15 @@ const LanguageSelect = () => {
   };
 
   return (
-    <select className="language-select" onChange={handleLangChange} value={t('language')}>
+    <>
+    <label className="language-select-label" for="lang">.</label>
+    <select id="lang" name="lang" className="language-select" onChange={handleLangChange} value={t('language')}>
       <option value="fr">FR</option>
       <option value="en">EN</option>
       {/* <option value="de">DE</option>
       <option value="it">IT</option> */}
     </select>
+    </>
   );
 };
 

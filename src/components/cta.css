@@ -38,6 +38,18 @@
   border-color: #00a305;
 }
 
+.black {
+  color: #fff;
+  background-color: #000;
+  border-color: #000;
+}
+
+.white {
+  color: #000;
+  background-color: #fff;
+  border-color: #fff;
+}
+
 .blue {
   color: #fff;
   background-color: rgb(11, 52, 78);
