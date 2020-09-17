@@ -17,17 +17,17 @@
     "cta": "Get Started"
   },
   "featuresSection": {
-    "title": "fully-integrated suite of tools",
-    "marketingTitle": "promote",
-    "marketingBlurb": "premium marketplace positioning<br /><br />social media and paid search",
-    "onboardingTitle": "onboard",
-    "onboardingBlurb": "registration and booking forms<br /><br />payment collection and processing",
-    "classManagementTitle": "administer",
-    "classManagementBlurb": "provider and parent dashboards<br /><br />in-class app for attendance and evaluation",
-    "communicationsTitle": "communicate",
-    "communicationsBlurb": "broadcast messages to groups<br /><br />direct messaging with parents / participiants",
-    "insightsTitle": "evolve",
-    "insightsBlurb": "finance and marketing analytics<br /><br />industry insights trend reporting"
+    "title": "Fully-integrated suite of tools",
+    "marketingTitle": "Promote",
+    "marketingBlurb": "Premium marketplace positioning<br /><br />Social media and paid search",
+    "onboardingTitle": "Onboard",
+    "onboardingBlurb": "Registration and booking forms<br /><br />Payment collection and processing",
+    "classManagementTitle": "Administer",
+    "classManagementBlurb": "Provider and parent dashboards<br /><br />In-class app for attendance and evaluation",
+    "communicationsTitle": "Communicate",
+    "communicationsBlurb": "Broadcast messages to groups<br /><br />Direct messaging with parents / participiants",
+    "insightsTitle": "Evolve",
+    "insightsBlurb": "Finance and marketing analytics<br /><br />Industry insights trend reporting"
   },
   "getStarted": {
     "title": "Get Started",

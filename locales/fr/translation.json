@@ -17,17 +17,17 @@
     "cta": "Commencer"
   },
   "featuresSection": {
-    "title": "suite d'outils entièrement intégrée",
-    "marketingTitle": "afficher",
-    "marketingBlurb": "positionnement marketplace premium<br /><br />média social et annonces publicitaires payées",
-    "onboardingTitle": "embarquement",
-    "onboardingBlurb": "formulaires d'inscription et de réservation<br /><br />collecte et traitement des paiements",
-    "classManagementTitle": "administrer",
-    "classManagementBlurb": "tableaux de bord des fournisseurs et des parents<br /><br />app en classe pour présence et évaluation",
-    "communicationsTitle": "communiquer",
-    "communicationsBlurb": "diffuser des messages à des groupes<br /><br />messagerie directe avec les parents / participants",
-    "insightsTitle": "évoluer",
-    "insightsBlurb": "analyse financière et marketing<br /><br />rapports sur les tendances de l’industrie"
+    "title": "Suite d'outils entièrement intégrée",
+    "marketingTitle": "Afficher",
+    "marketingBlurb": "Positionnement marketplace premium<br /><br />Média social et annonces publicitaires payées",
+    "onboardingTitle": "Embarquement",
+    "onboardingBlurb": "Formulaires d'inscription et de réservation<br /><br />Collecte et traitement des paiements",
+    "classManagementTitle": "Administrer",
+    "classManagementBlurb": "Tableaux de bord des fournisseurs et des parents<br /><br />App en classe pour présence et évaluation",
+    "communicationsTitle": "Communiquer",
+    "communicationsBlurb": "Diffuser des messages à des groupes<br /><br />Messagerie directe avec les parents / participants",
+    "insightsTitle": "Evoluer",
+    "insightsBlurb": "Analyse financière et marketing<br /><br />Rapports sur les tendances de l’industrie"
   },
   "getStarted": {
     "title": "Commencer",
